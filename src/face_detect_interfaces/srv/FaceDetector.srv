@@ -1,0 +1,8 @@
+sensor_msgs/Image image # 定义一个sensor_msgs/msg/Image类型的变量image，表示人脸图像
+---
+int16 number # 定义一个int16类型的变量number，表示识别到的人脸数目
+float32 use_time # 定义一个float32类型的变量use_time，表示识别人脸所花费的时间
+int32[] top # 定义一个int32类型的数组变量top，表示识别到的人脸的顶点坐标
+int32[] left # 定义一个int32类型的数组变量left，表示识别到的人脸的左点坐标
+int32[] right # 定义一个int32类型的数组变量right，表示识别到的人脸的右点坐标
+int32[] bottom # 定义一个int32类型的数组变量bottom，表示识别到的人脸的底点坐标
